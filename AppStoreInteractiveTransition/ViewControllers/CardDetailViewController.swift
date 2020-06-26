@@ -225,6 +225,12 @@ class CardDetailViewController: StatusBarAnimatableViewController, UIScrollViewD
         return StatusBarAnimatableConfig(prefersHidden: true,
                                          animation: .slide)
     }
+    
+    @IBAction func buttonTapped(_ sender: Any) {
+//        let vc = ModalViewController()
+//        present(vc, animated: true)
+        performSegue(withIdentifier: "showModalView", sender: nil)
+    }
 }
 
 extension CardDetailViewController: UIGestureRecognizerDelegate {

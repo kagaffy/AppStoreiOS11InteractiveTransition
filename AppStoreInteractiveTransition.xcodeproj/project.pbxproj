@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2683058C24A5F76100087C6E /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683058B24A5F76100087C6E /* ModalViewController.swift */; };
+		2683058E24A5F79900087C6E /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2683058D24A5F79900087C6E /* ModalViewController.xib */; };
 		301CAA782113014300AB61CC /* StatusBarAnimatableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301CAA772113014300AB61CC /* StatusBarAnimatableViewController.swift */; };
 		301CAA7B21133D5800AB61CC /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301CAA7A21133D5800AB61CC /* CardDetailViewController.swift */; };
 		304EF43121199C540017A318 /* DismissCardAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304EF43021199C540017A318 /* DismissCardAnimator.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2683058B24A5F76100087C6E /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		2683058D24A5F79900087C6E /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 		301CAA772113014300AB61CC /* StatusBarAnimatableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarAnimatableViewController.swift; sourceTree = "<group>"; };
 		301CAA7A21133D5800AB61CC /* CardDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
 		304EF43021199C540017A318 /* DismissCardAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissCardAnimator.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		301CAA7921133D4B00AB61CC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2683058B24A5F76100087C6E /* ModalViewController.swift */,
+				2683058D24A5F79900087C6E /* ModalViewController.xib */,
 				301CAA7A21133D5800AB61CC /* CardDetailViewController.swift */,
 				30631D0021106AF50007629D /* HomeViewController.swift */,
 			);
@@ -229,6 +235,7 @@
 				30631D27211075DE0007629D /* CardCollectionViewCell.xib in Resources */,
 				30631D1A21106B3B0007629D /* img2.jpg in Resources */,
 				30AFF5A42126CA5600BD4A50 /* drowning.png in Resources */,
+				2683058E24A5F79900087C6E /* ModalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +252,7 @@
 				301CAA782113014300AB61CC /* StatusBarAnimatableViewController.swift in Sources */,
 				304EF43121199C540017A318 /* DismissCardAnimator.swift in Sources */,
 				30631D1D21106B860007629D /* Utils.swift in Sources */,
+				2683058C24A5F76100087C6E /* ModalViewController.swift in Sources */,
 				307B976721107D4E005A1629 /* CardTransition.swift in Sources */,
 				307B976921107F04005A1629 /* PresentCardAnimator.swift in Sources */,
 				30631D0121106AF50007629D /* HomeViewController.swift in Sources */,

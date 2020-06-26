@@ -50,5 +50,6 @@ final class CardTransition: NSObject, UIViewControllerTransitioningDelegate {
     // IMPORTANT: Must set modalPresentationStyle to `.custom` for this to be used.
     func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
         return CardPresentationController(presentedViewController: presented, presenting: presenting)
+//        return nil
     }
 }
